@@ -9,9 +9,11 @@ const Contact = () => {
                 GET IN TOUCH
             </a>
         </div>
-        <div className="absolute bottom-[-2.8rem] left-1/2 -translate-x-1/2">
+        <div className="absolute lg:bottom-[-1.7rem] md:bottom-[-0.8rem] bottom-[-0.8rem] left-1/2 -translate-x-1/2">
             <h1 className="text-[#d8d8d8] text-5xl sm:text-6xl lg:text-9xl text-center font-medium px-8">
-                PORTFOLIO
+              {'THEEND'.split('').map((char, index) => (
+                <span key={index} className="lg:m-10 md:m-7 m-2">{char}</span>
+              ))}
             </h1>
       </div>
     </div>
