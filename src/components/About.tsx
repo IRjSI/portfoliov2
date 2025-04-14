@@ -1,4 +1,3 @@
-import React from 'react'
 
 const About = () => {
   const skills = ['React', 'Express', 'MongoDB', 'Node', 'JavaScript']
